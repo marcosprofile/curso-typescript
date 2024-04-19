@@ -10,7 +10,7 @@
 // Alias
 type Funcionario = {
   supervisores: string[],
-  baterPonto: (horas: number) => string
+  baterPonto: (params: number) => string
 }
 
 let funcionario: Funcionario = {
